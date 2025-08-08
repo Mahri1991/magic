@@ -1,0 +1,31 @@
+.program{
+    margin:70px auto;
+    width:80%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+   
+}
+.program img{
+    width:100%;
+    border-radius: 10px;
+    display: block;
+
+
+}
+.programs{
+    flex-basis: 31%;
+    margin: 0 10px;
+}
+/* media query */
+@media (max-width:650px){
+    .program{
+        flex-direction: column;
+    }
+    .programs{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
